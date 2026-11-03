@@ -5,3 +5,9 @@ button.choice{width:100%;display:block;text-align:left;color:#f6ead4;font-weight
 .respondent{margin:18px 0;padding:15px;background:#213650;border:1px solid #6b829e;border-radius:14px}.respondent .row{margin-top:10px}.respondent button.primary{box-shadow:0 0 0 2px #f5d18a55}
 
 .lesson{margin:18px 0;padding:17px 19px;border-left:4px solid #e5c27d;background:#1b334d;border-radius:0 12px 12px 0}.lesson strong{color:#f2d392}.lesson p{margin:8px 0 0;line-height:1.7}
+
+/* v2.5: presentation-first question stage */
+.question-header{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#233d5b;border:1px solid #526c8b;padding:14px 18px;border-radius:12px;margin:14px 0;color:#f5d392;font-weight:700}
+.question{max-width:950px}.answer{animation:appear .32s ease-out}.lesson{font-size:1.08rem}.lesson p{max-width:850px}.respondent button{flex:1 1 145px}.answer>.row button{flex:1 1 200px;min-height:52px}.choice{transition:background .15s,border-color .15s,transform .15s}
+@keyframes appear{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:600px){.question-header{padding:10px;font-size:13px}.answer>.row button{flex:1 1 100%}.lesson{font-size:1rem}}
